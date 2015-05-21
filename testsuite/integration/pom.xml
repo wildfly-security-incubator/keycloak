@@ -32,6 +32,10 @@
             <artifactId>keycloak-admin-client</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-elytron-realm</artifactId>
+        </dependency>
+        <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
         </dependency>
@@ -236,7 +240,10 @@
             <artifactId>wildfly-undertow</artifactId>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.wildfly.security</groupId>
+            <artifactId>wildfly-elytron</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <plugins>

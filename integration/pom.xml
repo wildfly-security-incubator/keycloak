@@ -30,5 +30,6 @@
         <module>osgi-adapter</module>
         <module>spring-boot</module>
         <module>spring-security</module>
+        <module>elytron</module>
     </modules>
 </project>
